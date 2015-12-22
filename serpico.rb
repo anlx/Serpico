@@ -27,7 +27,7 @@ set :bind_address, config_options["bind_address"]
 
 ## Global variables
 set :finding_types, config_options["finding_types"]
-set :effort, ["LOW","MEDIUM","HARD"]
+set :effort, ["Niedrig","Mittel","Hoch"]
 set :assessment_types, ["External", "Internal", "Internal/External", "Wireless", "Web Application", "DoS"]
 set :status, ["EXPLOITED"]
 set :show_exceptions, false
