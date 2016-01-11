@@ -28,14 +28,9 @@
                 %input{:type => 'text', :style => 'width: 90%', :name => 'report_name', :value => "#{@report.report_name}"}
             %tr
               %td{:style => 'width: 30%'}
-                Full Company Name
+                Company Name
               %td{:style => 'width: 70%'}
                 %input{:type => 'text', :style => 'width: 90%', :name => 'full_company_name', :value => "#{@report.full_company_name}"}
-            %tr
-              %td{:style => 'width: 30%'}
-                Short Company Name
-              %td{:style => 'width: 70%'}
-                %input{:type => 'text', :style => 'width: 90%', :name => 'short_company_name', :value => "#{@report.short_company_name}"}
             %tr
               %td{:style => 'width: 30%'}
                 Company Website
@@ -63,7 +58,7 @@
                 %input{:type => 'text', :style => 'width: 90%', :name => 'contact_zip', :value => "#{@report.contact_zip}"}
             %tr
               %td{:style => 'width: 30%'}
-                Contact Name
+                Contact Name and Title
               %td{:style => 'width: 70%'}
                 %input{:type => 'text', :style => 'width: 90%', :name => 'contact_name', :value => "#{@report.contact_name}"}
             %tr
@@ -71,11 +66,6 @@
                 Contact E-Mail
               %td{:style => 'width: 70%'}
                 %input{:type => 'text', :style => 'width: 90%', :name => 'contact_email', :value => "#{@report.contact_email}"}
-            %tr
-              %td{:style => 'width: 30%'}
-                Contact Title
-              %td{:style => 'width: 70%'}
-                %input{:type => 'text', :style => 'width: 90%', :name => 'contact_title', :value => "#{@report.contact_title}"}
             %tr
               %td{:style => 'width: 30%'}
                 Contact Phone
